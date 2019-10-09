@@ -1,0 +1,24 @@
+{
+  "name": "chainskills",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ChainSkills",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "@ethereum-alarm-clock/lib": "^0.3.5",
+    "moment": "^2.24.0",
+    "tar": "^5.0.5",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}
